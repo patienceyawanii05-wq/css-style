@@ -1,0 +1,19 @@
+/* 1. Query #1: Tablet View (Triggers at 772px and up) */
+@media screen and (min-width: 772px) {
+    div {
+        width: 45%;
+        display: inline-block; /* Allows divs to sit side-by-side instead of stacking vertically */
+        vertical-align: top;
+    }
+    
+    img {
+        max-height: 30vh; /* Restricts image height to no more than 30% of viewport height */
+    }
+}
+
+/* 2. Query #2: Large Screen View (Triggers at 998px and up) */
+@media screen and (min-width: 998px) {
+    div {
+        width: 30%; /* Shrinks divs to 30% of viewport width */
+    }
+}
